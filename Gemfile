@@ -10,7 +10,7 @@ end
 gem 'rails', '~> 5.1.7'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
-gem 'devise'
+gem 'devise', '~>4.2'
 gem 'milia', '~>1.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -32,6 +32,8 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'better_errors', '~> 2.5', '>= 2.5.1'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
